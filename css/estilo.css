@@ -3,31 +3,24 @@
     padding: 0;
 }
 
-body {
-    background-color: rgb(245, 244, 244);
+#navegacao {
+    width: auto;
+    height: 40px;
+    background-color: aqua;
+    text-align: center ;
 }
 
-header h1 {
-    text-align: center;
-    color: ;
+ul li {
+    display: inline;
+    
+}
+ul li a {
+    text-decoration: none;
+    background-color: aquamarine;
+    padding: 10px 30px ;
+    line-height: 2.1em;
 }
 
-#container {
-    margin: 30px auto;
-    background-color: #A9F5F2;
-    width: 1280px;
-   
+ul li.caixa {
+    background-color: brown;
 }
-
-#barra ul li {
-    background-color: #A9F5F2;
-    height: 15px;
-}
-
-#barra ul li a {
-    border: 1px solid red;
-    float: right;
-}
-
-
-
