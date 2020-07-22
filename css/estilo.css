@@ -1,14 +1,33 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
 body {
     background-color: rgb(245, 244, 244);
 }
 
 header h1 {
     text-align: center;
+    color: ;
 }
 
 #container {
     margin: 30px auto;
-    background-color: blueviolet;
+    background-color: #A9F5F2;
     width: 1280px;
    
 }
+
+#barra ul li {
+    background-color: #A9F5F2;
+    height: 15px;
+}
+
+#barra ul li a {
+    border: 1px solid red;
+    float: right;
+}
+
+
+
