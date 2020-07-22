@@ -1,0 +1,14 @@
+body {
+    background-color: rgb(245, 244, 244);
+}
+
+header h1 {
+    text-align: center;
+}
+
+#container {
+    margin: 30px auto;
+    background-color: blueviolet;
+    width: 1280px;
+   
+}
