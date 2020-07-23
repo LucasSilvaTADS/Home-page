@@ -3,22 +3,24 @@
     margin: 0;
     padding: 0;
 }
+/*cabeçalho*/
 
 h1 {
-    color: brown;
+    color:;
     padding: 40px;
     text-align: center;
     font-size: 4em;
 }
 span {
-    color: chocolate;
+    color:#2ECCFA;
 }
 
 #cabe1 {
-    background-color: rgb(189, 177, 177);
+    background-color:#CEF6F5;
     width: auto;
     height: 150px;
 }
+/*conteudo*/
 
 #container {
     width: 1200px;
@@ -33,12 +35,64 @@ span {
    
 
 }
+#conteudo h2 {
+    font-size: 2em;
+    text-transform: uppercase;
+    padding: 10px;
+    color: ;
+}
+
+#conteudo p {
+    padding: 0px 5px 5px 5px;
+}
+
+/* barra lateral*/
 
 #barra-lateral {
     width: 300px;
     height: 500px;
-    background-color: darkgoldenrod;
-    float: right;
-    
+    background-color: rgb(238, 209, 135);
+    float: right;   
     
 }
+#barra-lateral ul li {
+    text-align: center;
+    list-style: none;
+}
+/*imagens*/
+img {
+    padding: 15px;
+}
+
+iframe {
+    width: 800px;
+    height: 500px;
+    padding: 20px;
+
+}
+
+/* radape */
+
+footer {
+    background-color: rgb(226, 226, 226);
+    clear: both;
+    text-align: center;
+    height: 30px;
+    padding-top: 10px;
+}
+
+/* links */
+
+* a {
+    text-decoration: none;
+}
+#barra-lateral a:visited, a:link{
+    color: dodgerblue;
+}
+#barra-lateral a:hover{
+    color: #00FFFF;
+}
+#cabe1 a {
+    color: lightskyblue;
+}
+
