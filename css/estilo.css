@@ -6,39 +6,39 @@
 /*cabeçalho*/
 
 h1 {
-    color:;
+    color:#473BF8;
     padding: 40px;
     text-align: center;
     font-size: 4em;
 }
 span {
-    color:#2ECCFA;
+    color:black;
 }
 
 #cabe1 {
-    background-color:#CEF6F5;
+    background-color:white;
     width: auto;
     height: 150px;
 }
 /*conteudo*/
 
 #container {
-    width: 1200px;
+    width: 1000px;
     margin: auto;
-    background-color: rgb(236, 245, 245);
+    background-color: white;
 
 }
 #conteudo {
-    width: 850px;
-    background-color: darksalmon;
-    float: left;
    
+    background-color: white;
+    margin: auto;
+    
 
 }
 #conteudo h2 {
     font-size: 2em;
     text-transform: uppercase;
-    padding: 10px;
+    padding: 30px;
     color: ;
 }
 
@@ -49,25 +49,34 @@ span {
 /* barra lateral*/
 
 #barra-lateral {
-    width: 300px;
-    height: 500px;
-    background-color: rgb(238, 209, 135);
-    float: right;   
+    width: auto;
+    height: 40px;
+    list-style: none;
+    background-color: #0080FF;
     
 }
 #barra-lateral ul li {
-    text-align: center;
-    list-style: none;
+    display:inline;
+    text-transform: uppercase;
+    padding: 0 60px 0 0;
+    
 }
+#barra-lateral ul {
+    text-align: center;
+    padding-top: 10px;
+    
+}
+
+
 /*imagens*/
 img {
-    padding: 15px;
+    padding: 20px 90px 15px 90px;
 }
 
 iframe {
     width: 800px;
     height: 500px;
-    padding: 20px;
+    padding: 20px 90px 15px 90px;
 
 }
 
@@ -87,7 +96,7 @@ footer {
     text-decoration: none;
 }
 #barra-lateral a:visited, a:link{
-    color: dodgerblue;
+    color: black;
 }
 #barra-lateral a:hover{
     color: #00FFFF;
@@ -96,3 +105,6 @@ footer {
     color: lightskyblue;
 }
 
+#conteudo p {
+    padding-left: 30px;
+}
